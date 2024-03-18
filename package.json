@@ -1,6 +1,6 @@
 {
   "name": "joker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Application that tells jokes, CSS only e-commerce application, Personal collection of useful functions.",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "dotenv": "^16.4.5",
-    "prettier": "^x.x.x"  
+    "prettier": "^x.x.x"
   },
   "repository": {
     "type": "git",
