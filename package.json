@@ -22,8 +22,5 @@
     "url": "https://github.com/WerKarwerkar/joker/issues"
   },
   "homepage": "https://github.com/WerKarwerkar/joker#readme",
-  "type": "module",
-  "dependencies": {
-    "one-liner-joke": "^1.2.2"
-  }
+  "type": "module"
 }
