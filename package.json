@@ -1,17 +1,18 @@
 {
   "name": "joker",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "Application that tells jokes, CSS only e-commerce application, Personal collection of useful functions.",
   "main": "index.js",
   "scripts": {
-    "test": "node src/js/joker.js"
+    "test": "node src/js/joker.js",
+    "format": "prettier -w src/js/joker.js"
   },
   "keywords": [],
   "author": "weronika",
   "license": "ISC",
   "devDependencies": {
     "dotenv": "^16.4.5",
-    "prettier": "^3.2.5"
+    "prettier": "^x.x.x"  
   },
   "repository": {
     "type": "git",
