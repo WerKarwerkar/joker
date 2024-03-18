@@ -1,15 +1,25 @@
 {
-  "name": "environment",
-  "version": "1.0.0",
-  "description": "",
+  "name": "joker",
+  "version": "0.0.1",
+  "description": "Application that tells jokes, CSS only e-commerce application, Personal collection of useful functions.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "weronika",
   "license": "ISC",
   "devDependencies": {
     "dotenv": "^16.4.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WerKarwerkar/joker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WerKarwerkar/joker/issues"
+  },
+  "homepage": "https://github.com/WerKarwerkar/joker#readme",
+  "type": "module" 
 }
+
