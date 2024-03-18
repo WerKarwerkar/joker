@@ -4,7 +4,7 @@
   "description": "Application that tells jokes, CSS only e-commerce application, Personal collection of useful functions.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node src/js/joker.js"
   },
   "keywords": [],
   "author": "weronika",
