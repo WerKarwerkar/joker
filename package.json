@@ -10,7 +10,8 @@
   "author": "weronika",
   "license": "ISC",
   "devDependencies": {
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "prettier": "^3.2.5"
   },
   "repository": {
     "type": "git",
