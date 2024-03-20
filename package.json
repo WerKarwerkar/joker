@@ -7,8 +7,7 @@
     "test": "node src/js/joker.test.js",
     "format": "prettier -w src/**/*.js",
     "lint": "eslint src/**/*.js",
-    "lint-fix": "eslint src/**/*.js --cache --fix",
-    "prepare": "husky install"
+    "lint-fix": "eslint src/**/*.js --cache --fix"
   },
   "keywords": [],
   "author": "weronika",
@@ -19,6 +18,12 @@
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
     "prettier": "^x.x.x"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --cache --fix",
+      "prettier --write"
+    ]
   },
   "repository": {
     "type": "git",
@@ -31,11 +36,5 @@
   "type": "module",
   "dependencies": {
     "give-me-a-joke": "^0.3.2"
-  },
-  "lint-staged": {
-    "*.js": [
-      "eslint --cache --fix",
-      "prettier --write"
-    ]
   }
 }
